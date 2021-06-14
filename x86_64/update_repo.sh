@@ -1,9 +1,9 @@
 #!/bin/bash
 
-rm tcet-applications*
+rm database-management-system*
 
 echo "repo-add"
-repo-add -n -R tcet-applications.db.tar.gz *.pkg.tar.zst
+repo-add -n -R database-management-system.db.tar.gz *.pkg.tar.zst
 sleep 5
 
 
